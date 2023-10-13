@@ -5,7 +5,9 @@ import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
         features = "src/test/resources/Features",
-        glue = "stepDefinition"
+        glue = "stepDefinition",
+        dryRun=false,
+        plugin= {"html:target/test"}
         )
 
 public class TestRunner extends AbstractTestNGCucumberTests{
