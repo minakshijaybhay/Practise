@@ -23,6 +23,8 @@ public class LinkedIn {
 		 
 		
 		System.out.println("Hi");
+		
+		System.out.println("hello");
 }
 
 	@When("^The tile of the page is LinkedIn$")
